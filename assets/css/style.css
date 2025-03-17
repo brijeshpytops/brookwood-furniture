@@ -122,7 +122,7 @@ li {
     font-weight: var(--font-semibold);
     color: var(--white);
     background-color: var(--red);
-    border: none;
+    border: 1px solid var(--red);
     border-radius: 5px;
     text-align: center;
     cursor: pointer;
@@ -133,34 +133,8 @@ li {
 
 .btn:hover {
     border: 1px solid var(--red);
-    background-color: transparent;
+    background-color: var(--white);
     color: var(--red);
-    transform: translateY(-2px);
-}
-
-.btn:active {
-    background-color: var(--dark);
-    transform: translateY(0);
-}
-
-.btn-outline {
-    background-color: transparent;
-    color: var(--orange);
-    border: 2px solid var(--orange);
-}
-
-.btn-outline:hover {
-    background-color: var(--orange);
-    color: var(--white);
-}
-
-.btn-dark {
-    background-color: var(--dark);
-    color: var(--white);
-}
-
-.btn-dark:hover {
-    background-color: var(--black);
 }
 
 
@@ -196,22 +170,23 @@ li {
 
 .tpheader__menus > ul {
     display: flex;
-    justify-content: center;
-    align-items: stretch;
+
 }
 
-.tpheader__menus > ul >li {
+.tpheader__menus > ul > li {
 
-    margin-left: 20px;
+    margin: 0 10px;
     font-size: var(--text-base);
 }
 
 .tpheader__menus > ul > li > a {
+    font-weight: 700;
     color: var(--red);
 }
 
 /*  header__container > */
 
+/*  */
 
 /* < responsive style */
 
